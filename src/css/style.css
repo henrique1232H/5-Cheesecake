@@ -162,7 +162,8 @@ button {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        width: 60%;
     }
 
     .popUp {
