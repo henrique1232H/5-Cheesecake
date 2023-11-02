@@ -157,6 +157,13 @@ button {
         display: none;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
 
     .popUp {
         display: flex;
