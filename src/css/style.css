@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Serif 4", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    background: #ea623c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+
+header h1 {
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+
+body {
+    background-image: url(/src/svg/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: auto;
+    width: 100%;
+}
+
+h1 {
+    transition: 250ms all ease-in-out;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+header h1:hover, h1:hover {
+    letter-spacing: 0.3rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.flex input {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.flex button {
+    
+    margin: 0;
+}
+
+
+h1, h2, p, li {
+    color: #A54328;
+    
+}
+
+ul li {
+    margin-left: 2.2rem;
+}
+
+ol li {
+    font-size: 2rem;
+    margin-left: 3.2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18.9rem;
+    margin: 11.39rem 13.63rem;
+}
+
+main article:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+main article:nth-child(2) h1 {
+    margin-bottom: 5.1rem;
+}
+
+.margin {
+    margin-bottom: 4rem;
+}
+
+main article figure {
+    margin: 6.6rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+
+    font-size: 2rem;
+    font-weight: 400;
+
+
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.8rem;
+    width: 13.3rem;
+    height: 4.5rem;
+    padding: 1.6rem;
+    background: #A54328;
+    color: #FFFF;
+    font-weight: 500;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+.popUp {
+    display: none;
+}
+
+.show, .no-show {
+    display: none;
+}
+
+@media  screen and (max-width: 48rem) {
+    main {
+        grid-template-columns: 1fr;
+        margin: 5.4rem 3.3rem;
+        gap: 3.4rem;
+    }
+
+    header div:nth-child(2) {
+        display: none;
+    }
+
+
+    .popUp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+
+    }
+
+    .show {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background: #fff;
+
+        height: 40vh;
+        width: 80%;
+        
+        top: 11vh;
+        right: 0;
+
+        border-radius: 0.5rem;
+        padding: 1rem 4rem;
+        
+    }
+
+
+
+}
