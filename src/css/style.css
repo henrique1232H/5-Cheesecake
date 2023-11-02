@@ -192,5 +192,11 @@ button {
     }
 
 
+    img {
+        height: 3vh;
+        min-height: 1vh;
+        max-height: 2vh;
+    }
+
 
 }
