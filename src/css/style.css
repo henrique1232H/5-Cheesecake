@@ -200,14 +200,32 @@ button {
         align-items: center;
     }
 
+
     main article:nth-child(1) p {
         width: 90%;
     }
 
     main img {
-        min-height: 4rem;
+        min-height: 2rem;
         max-height: 20rem;
+        width: 100%;
+        min-width: 4vw;
+        max-width: 60vw;
     }
 
+    main article:nth-child(2) > div {
+        width: 100%;
+    }
 
+    main article:nth-child(2) ul li p, main article:nth-child(2) ol li p {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 318px) and (min-width: 0px)  {
+    header {
+        
+        flex-direction: column;
+    }
 }
