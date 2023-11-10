@@ -101,6 +101,8 @@ main article:nth-child(2) h1 {
     margin-bottom: 5.1rem;
 }
 
+
+
 .margin {
     margin-bottom: 4rem;
 }
@@ -146,7 +148,7 @@ button {
     display: none;
 }
 
-@media  screen and (max-width: 48rem) {
+@media  screen and (max-width: 70rem) {
     main {
         grid-template-columns: 1fr;
         margin: 5.4rem 3.3rem;
@@ -191,9 +193,20 @@ button {
         
     }
 
+    main article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-    img {
-        height: 10vh;
+    main article:nth-child(1) p {
+        width: 90%;
+    }
+
+    main img {
+        min-height: 4rem;
+        max-height: 20rem;
     }
 
 
