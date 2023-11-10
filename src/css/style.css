@@ -180,12 +180,12 @@ button {
         display: flex;
         justify-content: center;
         position: absolute;
-        background: #fff;
+        background: #ffffff8b;
 
-        height: 40vh;
-        width: 80%;
+        height: 100%;
+        width: 100%;
         
-        top: 11vh;
+        top: 10vh;
         right: 0;
 
         border-radius: 0.5rem;
